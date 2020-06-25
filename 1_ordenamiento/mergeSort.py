@@ -7,7 +7,8 @@
 	1) Si la longitud de la lista es 0 ó 1, ya está ordenado. Si no:
 	2) dividir la lista desordenada en dos sublistas de aproximadamente la mitad del tamaño.
 	3) Ordenar cada sublista recursivamente aplicando merge sort.
-	4) Mexclar las dos sublistas en una sola lista ordenada. """
+	4) Mexclar las dos sublistas en una sola lista ordenada.
+"""
 
 # Función que realiza las comparaciones para ordenar dos sublistas en una (paso 4)
 def merge(l1, l2):

@@ -8,7 +8,8 @@
 	2) Elegir un elemento del arreglo como pivote.
 	3) Reubicar los demás elementos de la lista a cada lado del pivote; del lado izquierdo los menores y del derecho los mayores (o viceversa).
 	4) Repetir el proceso recursivamente para cada sublista, sin tomar al pivote.
-	5) Retornar la sublista izquierda, pivote y sublista derecha; en ese orden"""
+	5) Retornar la sublista izquierda, pivote y sublista derecha; en ese orden
+"""
 
 def quickSort(l):
 	# (1)
